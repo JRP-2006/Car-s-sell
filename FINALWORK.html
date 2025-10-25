@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Venta de autos nuevos y seminuevos al mejor precio.">
+  <title>AutoExpress | Venta de Autos</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+
+  <!-- 🔹 CSS INTERNO -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f7f8fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1a73e8, #0077b6);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    section {
+      width: 90%;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0077b6;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #0077b6;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    article {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 10px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #0077b6;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea, button {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #005a91;
+    }
+
+    footer {
+      background-color: #1a73e8;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    blockquote {
+      background: #e3f2fd;
+      padding: 10px;
+      border-left: 4px solid #0077b6;
+      margin: 10px 0;
+    }
+
+    details {
+      background: #f1f1f1;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 5px;
+    }
+
+    iframe {
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+  <!-- 🔹 FIN DEL CSS -->
+</head>
+
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>AutoExpress</h1>
+    <p>Venta de autos nuevos y seminuevos al mejor precio</p>
+    <nav>
+      <a href="#inicio">Inicio</a> |
+      <a href="#catalogo">Catálogo</a> |
+      <a href="#beneficios">Beneficios</a> |
+      <a href="#servicios">Servicios</a> |
+      <a href="#equipo">Equipo</a> |
+      <a href="#faq">Preguntas</a> |
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <h2>Encuentra el auto de tus sueños 🚗</h2>
+    <p>Tenemos autos nuevos y seminuevos con garantía, entrega inmediata y facilidades de pago.</p>
+    <a href="#catalogo">Ver Catálogo</a>
+  </section>
+
+  <!-- Catálogo -->
+  <section id="catalogo">
+    <h2>Nuestros Autos Destacados</h2>
+
+    <article>
+      <h3>Toyota Corolla 2022</h3>
+      <p>Precio: $18,500 USD</p>
+      <p>Auto en excelente estado, con solo 10,000 km.</p>
+    </article>
+
+    <article>
+      <h3>Honda Civic 2023</h3>
+      <p>Precio: $21,300 USD</p>
+      <p>Nuevo, versión Sport con motor turbo.</p>
+    </article>
+
+    <article>
+      <h3>Ford Mustang 2021</h3>
+      <p>Precio: $35,000 USD</p>
+      <p>Potencia, estilo y velocidad en un solo auto.</p>
+    </article>
+
+    <article>
+      <h3>Chevrolet Spark 2020</h3>
+      <p>Precio: $9,900 USD</p>
+      <p>Compacto, económico y perfecto para la ciudad.</p>
+    </article>
+  </section>
+
+  <!-- Promoción -->
+  <section id="promocion">
+    <h2>🎉 Promoción del Mes</h2>
+    <p>Obtén un 20% de descuento en autos seminuevos seleccionados.</p>
+    <a href="#catalogo">Aprovechar Oferta</a>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+
+    <article>
+      <h3>Mantenimiento Preventivo</h3>
+      <p>Cuida tu auto con planes de mantenimiento profesional.</p>
+    </article>
+
+    <article>
+      <h3>Seguros Vehiculares</h3>
+      <p>Protege tu inversión con los mejores seguros del país.</p>
+    </article>
+
+    <article>
+      <h3>Crédito Automotriz</h3>
+      <p>Financia tu auto nuevo con cuotas accesibles.</p>
+    </article>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios">
+    <h2>¿Por qué elegirnos?</h2>
+    <ul>
+      <li>✔ Garantía extendida en todos los autos</li>
+      <li>💰 Financiamiento fácil y rápido</li>
+      <li>🚚 Entrega en todo el país</li>
+      <li>⭐ Asistencia postventa</li>
+    </ul>
+  </section>
+
+  <!-- Opiniones -->
+  <section id="opiniones">
+    <h2>Opiniones de Nuestros Clientes</h2>
+
+    <blockquote>
+      “Excelente atención, compré mi auto en una semana y todo fue muy fácil.”
+      <cite>– Carlos Méndez</cite>
+    </blockquote>
+
+    <blockquote>
+      “El mejor lugar para comprar un auto usado, todo transparente.”
+      <cite>– Laura González</cite>
+    </blockquote>
+  </section>
+
+  <!-- Equipo -->
+  <section id="equipo">
+    <h2>Conoce a Nuestro Equipo</h2>
+
+    <article>
+      <h3>Laura Pérez</h3>
+      <p>Asesora de Ventas</p>
+    </article>
+
+    <article>
+      <h3>Carlos Gómez</h3>
+      <p>Gerente de Operaciones</p>
+    </article>
+
+    <article>
+      <h3>María Rodríguez</h3>
+      <p>Especialista en Financiamiento</p>
+    </article>
+  </section>
+
+  <!-- Preguntas frecuentes -->
+  <section id="faq">
+    <h2>Preguntas Frecuentes</h2>
+
+    <details>
+      <summary>¿Puedo comprar un auto 100% online?</summary>
+      <p>Sí, puedes hacer todo el proceso desde casa y recibir el auto en tu ciudad.</p>
+    </details>
+
+    <details>
+      <summary>¿Ofrecen garantía en autos usados?</summary>
+      <p>Sí, todos nuestros autos tienen garantía mínima de 6 meses.</p>
+    </details>
+
+    <details>
+      <summary>¿Hacen envíos a otras ciudades?</summary>
+      <p>Sí, enviamos a todo el país con transporte asegurado.</p>
+    </details>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text" name="nombre" required>
+
+      <label>Correo electrónico:</label>
+      <input type="email" name="email" required>
+
+      <label>Auto de interés:</label>
+      <input type="text" name="auto">
+
+      <label>Mensaje:</label>
+      <textarea name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <!-- Mapa -->
+  <section id="mapa">
+    <h2>Nuestra Ubicación</h2>
+    <p>Estamos en: Calle 45 #12-34, Bogotá, Colombia</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300"></iframe>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 AutoExpress. Todos los derechos reservados.</p>
+    <p>Síguenos en redes sociales: Facebook | Instagram | Twitter | YouTube</p>
+  </footer>
+
+</body>
+</html>
