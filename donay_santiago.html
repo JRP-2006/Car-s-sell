@@ -1,1 +1,116 @@
 <h1>donay</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Venta de autos nuevos y seminuevos al mejor precio.">
+  <title>AutoExpress | Venta de Autos</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo AutoExpress">
+        <h1>AutoExpress</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2>Encuentra el auto de tus sueños</h2>
+      <p>Autos nuevos y seminuevos con garantía, financiamiento y entrega inmediata.</p>
+      <a href="#catalogo" class="btn-primario">Ver Catálogo</a>
+    </div>
+  </section>
+
+  <!-- Catálogo -->
+  <section id="catalogo" class="catalogo">
+    <h2>Nuestros Autos Destacados</h2>
+    <div class="autos-grid">
+      <div class="auto">
+        <img src="img/auto1.jpg" alt="Auto 1">
+        <h3>Toyota Corolla 2022</h3>
+        <p>Precio: <strong>$18,500 USD</strong></p>
+        <a href="#contacto" class="btn-secundario">Consultar</a>
+      </div>
+      <div class="auto">
+        <img src="img/auto2.jpg" alt="Auto 2">
+        <h3>Honda Civic 2023</h3>
+        <p>Precio: <strong>$21,300 USD</strong></p>
+        <a href="#contacto" class="btn-secundario">Consultar</a>
+      </div>
+      <div class="auto">
+        <img src="img/auto3.jpg" alt="Auto 3">
+        <h3>Ford Mustang 2021</h3>
+        <p>Precio: <strong>$35,000 USD</strong></p>
+        <a href="#contacto" class="btn-secundario">Consultar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios" class="beneficios">
+    <h2>¿Por qué elegirnos?</h2>
+    <div class="beneficios-grid">
+      <div class="beneficio">
+        <h3>✔ Garantía</h3>
+        <p>Tus autos están respaldados por garantía de fábrica o extendida.</p>
+      </div>
+      <div class="beneficio">
+        <h3>💰 Financiamiento</h3>
+        <p>Planes accesibles y flexibles para que estrenes sin complicaciones.</p>
+      </div>
+      <div class="beneficio">
+        <h3>🚚 Entrega Rápida</h3>
+        <p>Autos listos para entrega inmediata en todo el país.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="testimonios-grid">
+      <div class="testimonio">
+        <p>"Excelente atención y mi auto llegó en perfectas condiciones. 100% recomendado."</p>
+        <h4>– Carlos Méndez</h4>
+      </div>
+      <div class="testimonio">
+        <p>"Me ayudaron con el financiamiento y fue muy rápido. Estoy feliz con mi nuevo Civic."</p>
+        <h4>– Laura González</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form action="#" method="post" class="form-contacto">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <input type="text" name="auto" placeholder="Auto de interés">
+      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn-primario">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 AutoExpress. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
