@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Venta de autos nuevos y seminuevos al mejor precio.">
+  <title>AutoExpress | Venta de Autos</title>
+
+  <!-- 🔹 Aquí va tu CSS interno -->
+  <style>
+    /* 🎨 Estilos generales */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f7f8fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1a73e8, #0077b6);
+      color: white;
+      padding: 15px 0;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+    }
+
+    .logo h1 {
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffe082;
+      transform: scale(1.1);
+    }
+
+    /* (Aquí puedes seguir pegando el resto del CSS que te pasé antes) */
+  </style>
+  <!-- 🔹 Fin del CSS interno -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+  <!-- Aquí sigue todo tu contenido -->
+</body>
+</html>
