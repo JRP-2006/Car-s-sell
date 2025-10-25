@@ -5,7 +5,149 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Venta de autos nuevos y seminuevos al mejor precio.">
   <title>AutoExpress | Venta de Autos</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+
+  <!-- 🔹 CSS INTERNO -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f7f8fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1a73e8, #0077b6);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    section {
+      width: 90%;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0077b6;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #0077b6;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    article {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 10px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #0077b6;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea, button {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #005a91;
+    }
+
+    footer {
+      background-color: #1a73e8;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    blockquote {
+      background: #e3f2fd;
+      padding: 10px;
+      border-left: 4px solid #0077b6;
+      margin: 10px 0;
+    }
+
+    details {
+      background: #f1f1f1;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 5px;
+    }
+
+    iframe {
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+  <!-- 🔹 FIN DEL CSS -->
 </head>
+
 <body>
 
   <!-- Encabezado -->
@@ -156,17 +298,17 @@
   <section id="contacto">
     <h2>Contáctanos</h2>
     <form>
-      <label>Nombre:</label><br>
-      <input type="text" name="nombre" required><br><br>
+      <label>Nombre:</label>
+      <input type="text" name="nombre" required>
 
-      <label>Correo electrónico:</label><br>
-      <input type="email" name="email" required><br><br>
+      <label>Correo electrónico:</label>
+      <input type="email" name="email" required>
 
-      <label>Auto de interés:</label><br>
-      <input type="text" name="auto"><br><br>
+      <label>Auto de interés:</label>
+      <input type="text" name="auto">
 
-      <label>Mensaje:</label><br>
-      <textarea name="mensaje" rows="4" required></textarea><br><br>
+      <label>Mensaje:</label>
+      <textarea name="mensaje" rows="4" required></textarea>
 
       <button type="submit">Enviar Mensaje</button>
     </form>
